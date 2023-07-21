@@ -103,6 +103,14 @@ public class Array<T> implements Iterable<T> {
         dl.add(100);
         dl.add(200);
         System.out.println(dl);
+
+        Stack<Integer> st = new Stack<Integer>(3);
+        st.push(100);
+        st.push(300);
+        st.push(200);
+        System.out.println(st);
+        st.pop();
+        System.out.println(st);
     }
 }
 
