@@ -111,6 +111,16 @@ public class Array<T> implements Iterable<T> {
         System.out.println(st);
         st.pop();
         System.out.println(st);
+
+        Queue<Integer> q = new Queue<Integer> (1);
+        q.offer(25);
+        q.offer(35);
+        q.offer(45);
+        System.out.println(q);
+        int elem = q.poll();
+        System.out.println("poll queue: " + elem);
+        System.out.println(q);
+
     }
 }
 
