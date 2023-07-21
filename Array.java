@@ -96,9 +96,13 @@ public class Array<T> implements Iterable<T> {
         ar.add(4);
         ar.add(5);
         ar.add(7);
-        for (int item : ar) {
-            System.out.println(item);
-        }
+        System.out.println(ar);
+
+        DoublyLinkedList<Integer> dl = new DoublyLinkedList<Integer> ();
+        dl.add(10);
+        dl.add(100);
+        dl.add(200);
+        System.out.println(dl);
     }
 }
 
